@@ -11,7 +11,7 @@ padding: 0;
 
 body {
 
-  margin: 24px;
+  margin: 16px;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
   color: #fff;
@@ -40,6 +40,13 @@ margin: 8px 0 16px 0;
 
 padding-bottom: 16px;
 border-bottom: 1px solid rgba(224, 72, 102, 0.18);
+
+}
+
+.pink-heading {
+
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.7);
 
 }
 
@@ -84,7 +91,14 @@ p {
   color: #E04866;
 }
 
-.fa-code {
+.pink {
+
+  background-color: #FF5B7C;
+  border-top: 4px solid rgba(256,256,256,0.7);
+  color: #fff;
+}
+
+.fa-code, .fa-coffee {
 
 margin-bottom:10px;
 opacity: 0.4;
