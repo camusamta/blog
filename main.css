@@ -3,6 +3,7 @@ html {
 /* background-color: #FF5F7F; */
 /* background-color: #FF5476; */
 background-color: #E04866;
+/* background-color: #fff; */
 background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23583d42' fill-opacity='0.14'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 margin: 0;
 padding: 0;
@@ -11,8 +12,8 @@ padding: 0;
 
 body {
 
-  margin: 16px;
-  padding: 0;
+  padding: 0 16px 16px 16px;
+  margin: 0;
   font-family: 'Quicksand', sans-serif;
   color: #fff;
 
@@ -22,7 +23,7 @@ body {
 
 h1 {
 
-  margin-top: 32px;
+  margin-top: 0px;
   margin-bottom: 32px;
   font-weight: 700;
   font-size: 46px;
@@ -67,7 +68,28 @@ p {
   margin-top: 8px;
 } */
 
-.main {
+header {
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+nav a {
+
+  width: 40px;
+  height: 40px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: rgba(256,256,256,0.8);
+  background-color: rgba(256,256,256,0.1);
+  border-radius: 2px;
+}
+
+main {
 
   max-width: 672px;
 }
@@ -79,7 +101,8 @@ p {
   border-radius: 4px;
   /* border-top: 4px solid rgba(255,255,255,0.77); */
   transition: background-color 0.3s;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+  /* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05); */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin-bottom: 16px;
   display: flex;
   flex-direction: column;
@@ -147,7 +170,7 @@ h1 {
 @media screen and (min-width: 886px) {
 
 
-.main {
+main {
 
   display: flex;
   flex-wrap: wrap;
