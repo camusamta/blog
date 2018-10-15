@@ -12,7 +12,7 @@ padding: 0;
 
 body {
 
-  padding: 0 16px 16px 16px;
+  padding: 0 8px 16px 8px;
   margin: 0;
   font-family: 'Quicksand', sans-serif;
   color: #fff;
@@ -35,6 +35,14 @@ h2 {
 
 font-size: 22px;
 margin: 8px 0 16px 0;
+
+
+}
+
+.temp {
+
+font-size: 18px;
+margin:0 0 8px 8px;
 
 
 }
@@ -73,6 +81,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: 32px;
+  padding-left: 8px;
 }
 
 nav a {
@@ -84,8 +93,8 @@ nav a {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: rgba(256,256,256,0.8);
-  background-color: rgba(256,256,256,0.1);
+  color: #E04866;
+  background-color: rgba(256,256,256,0.95);
   border-radius: 2px;
 }
 
@@ -96,14 +105,14 @@ main {
 
 .card {
 
-  padding: 20px 24px 24px 24px;
+  padding: 20px 16px 24px 16px;
   /* background-color: rgba(255,255,255,0.05); */
   border-radius: 4px;
   /* border-top: 4px solid rgba(255,255,255,0.77); */
   transition: background-color 0.3s;
   /* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05); */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   display: flex;
   flex-direction: column;
   transition: transform 0.08s ease;
@@ -169,6 +178,19 @@ h1 {
 
 @media screen and (min-width: 886px) {
 
+  .begrudging-wrapper {
+
+  display: flex;
+
+  }
+
+  header {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-left: 8px;
+  }
 
 main {
 
@@ -180,6 +202,7 @@ main {
 .card {
 
   width: 280px;
+  margin-bottom: 16px;
 
 
 }
@@ -187,6 +210,17 @@ main {
 .card:nth-of-type(odd) {
 
 margin-right: 16px;
+
+}
+
+nav {
+
+  display: none;
+}
+
+h1 {
+
+margin-right: 24px;
 
 }
 
