@@ -100,7 +100,7 @@ nav a {
 
 main {
 
-  max-width: 672px;
+  width: 100%;
 }
 
 .card {
@@ -205,11 +205,11 @@ h1 {
 
 @media screen and (min-width: 886px) {
 
-  .begrudging-wrapper {
+  /* .begrudging-wrapper {
 
   display: flex;
 
-  }
+  } */
 
   header {
 
@@ -223,7 +223,7 @@ main {
 
   display: flex;
   flex-wrap: wrap;
-
+  max-width: 986px;
 }
 
 .card {
@@ -234,7 +234,7 @@ main {
 
 }
 
-.card:nth-of-type(odd) {
+.card {
 
 margin-right: 16px;
 
