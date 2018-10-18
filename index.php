@@ -29,7 +29,27 @@
     <article class="card white">
 
     <i class="fas fa-code"></i>
-    <time>September 12th</time>
+
+    <?php
+
+    $date = date('dS Y');
+    $monthsArray = [January, February, March, April, May, June, July, August, September, October, November, December];
+    $currMonth = date('F');
+
+
+    for ($i=0;$i<12;$i++) {
+
+    if ($monthsArray[$i] == $currMonth) {
+
+    $upDate = $monthsArray[$i - 1];
+
+    };
+
+    };
+
+    ?>
+
+    <time><?php echo $upDate , $date ?> </time>
     <h2 class="white-heading">How does the inspect tool work?</h2>
     <p>We take a closer look at the oft-used browser-based developer tool</p>
 
@@ -74,5 +94,6 @@
  </main>
 
 </div>
+<script>console.log('hmm');</script>
   </body>
 </html>
