@@ -49,17 +49,17 @@
 
     ?>
 
-    <time><?php echo $upDate , $date ?> </time>
+    <time><?php echo $upDate , '&nbsp', $date ?> </time>
     <h2 class="white-heading">How does the inspect tool work?</h2>
     <p>We take a closer look at the oft-used browser-based developer tool</p>
 
     </article>
 
-    <article class="card pink">
+    <article class="card white">
 
     <i class="fas fa-coffee"></i>
     <time>September 6th</time>
-    <h2 class="pink-heading">Is the Hario V60 the best way to make coffee?</h2>
+    <h2 class="white-heading">Is the Hario V60 the best way to make coffee?</h2>
     <p>Using a pour-over brewing method gives you more flavour flexibility</p>
 
     </article>
@@ -73,11 +73,11 @@
 
     </article>
 
-    <article class="card pink">
+    <article class="card white">
 
     <i class="fas fa-code"></i>
     <time>September 2nd</time>
-    <h2 class="pink-heading">Why is Atom the superior IDE?</h2>
+    <h2 class="white-heading">Why is Atom the superior IDE?</h2>
     <p>We take a closer look at the oft-used browser-based developer tool</p>
 
     </article>
